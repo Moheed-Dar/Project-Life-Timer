@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.back-img{
+    background-image: url(city_month_windows_home_street_Kiev_4722x2838.jpg);
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.container{
+    display: grid;
+    place-items: center;
+    height:50vh;
+}
+.container h3{
+    font-size:40px ;
+    font-family: 'Gill Sans';
+    color:yellow;
+    border-color: black;
+    border:2px solid rgb(190, 190, 182);
+    width:560px;
+    justify-content: center;
+    text-align: center;
+    height:50px;
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px aqua;
+    cursor:none;
+
+}
+.container h1{
+   font-size: 35px;
+   font-family: cambria;
+   color:aqua;
+   padding-bottom: 50px;
+   text-shadow: 2px 10px 10px white;
+   text-transform: uppercase;
+
+}
+.setting{
+    position: absolute;
+    bottom:30px;
+    right:10px;
+    display:flex;
+    align-items: center;
+    gap:1rem;
+
+}
+.setting .fa-cog{
+    font-size: 30px;
+    color:white;
+    cursor:pointer;
+
+}
+.settings-content{
+    display:flex;
+    gap:1rem;
+
+}
+.settings-content input{
+    padding:0.5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    border:none;
+    background-color: yellow;
+}
+.settings-content input:hover{
+    padding:0.5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    border:none;
+    background-color:rgb(218, 218, 218);
+    
+}
+.hide{
+    display: none;
+}
+.time-container{
+    margin-top: 1rem;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:black;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    box-shadow: 4px 5px  40px white;
+}
+.time-container h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.time-container div{
+    
+    font-size: 4rem;
+    color:white;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    position:relative;
+    margin-bottom: 10px;
+}
+.center h2{
+    font-size: 40px;
+    color:yellow;
+    padding:10px;
+}
+
